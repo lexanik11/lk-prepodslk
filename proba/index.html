@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Личный кабинет преподавателя</title>
+</head>
+
+<body>
+
+	<section class="form">
+		<div class="container">
+			<h1>Здравствуйте, Максим Александрович</h1>
+
+			<ul id="navigation">
+				<li class="one"><a class="one-list" href="#">Мои дисциплины</a></li>
+				<li class="two"><a class="two-list" href="#">Все дисциплины</a></li>
+				<li class="three"><a class="three-list" href="#">Архив дисциплин</a></li>
+			</ul>
+
+			<div class="content">
+				<div class="block">
+					<div class="text-one"><img class="text-icon" src="img/icon.jpg" alt="icon"> Анализ и проектирование
+						информационных
+						систем</div>
+					<select name="select" class="feedback-select">
+						<option value="">Ближайшие занятия</option>
+						<option>18.03</option>
+						<option>19.03</option>
+						<option>20.03</option>
+						<option>21.03</option>
+						<option>22.03</option>
+					</select>
+					<div class="work">
+						<label for="numbet">Количество работ</label>
+						<input type="number" class="feedback-work" placeholder="Работы на проверку">
+					</div>
+					<select name="back" id="feedback-back">
+						<option value="">Работ сдано</option>
+						<option>1/15</option>
+						<option>2/15</option>
+						<option>3/15</option>
+						<option>4/15</option>
+						<option>5/15</option>
+					</select>
+					<select name="year" id="feedback-year">
+						<option value="">Год</option>
+						<option>2015</option>
+						<option>2016</option>
+						<option>2017</option>
+						<option>2018</option>
+						<option>2019</option>
+					</select>
+					<select name="group" id="feedback-group">
+						<option value="">Группа</option>
+						<option>КМБО-02-16</option>
+						<option>КМБО-02-17</option>
+						<option>КМБО-02-18</option>
+						<option>КМБО-02-18</option>
+						<option>КМБО-02-19</option>
+					</select>
+				</div>
+				<div class="report">
+					<div class="report-title">
+						Отчетность в 2018/19 уч.г. <br>
+						К/р <br>
+						Экзамен <br>
+					</div>
+				</div>
+
+				<div class="buttons">
+					<div class="block-left">
+						<button id="btn" class="btn button btn-one">Страница дисциплины</button>
+					</div>
+					<div class="block-right">
+						<button class="button btn-left">Данные по дисциплине</button>
+						<button class="button">Архивировать</button>
+					</div>
+				</div>
+				<div class="btn button-visible">
+					<div class="text-subtitle">
+						<img class="text-icon" src="img/icon.jpg" alt="icon">
+						<div>Управление разработкой программного обеспечения</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		</select>
+
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/js.js"></script>
+		<script>
+
+			$(document).ready(function () {
+				$('#btn').on('click', function () {
+					$('.btn').toggleClass('btn-bottom');
+				});
+			});
+
+		</script>
+</body>
+
+</html>
