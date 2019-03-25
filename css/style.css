@@ -160,6 +160,7 @@ input {
 .report-title-bottom {
 	display: block;
 	padding: 15px;
+	line-height: 10px;
 }
 
 .buttons {
