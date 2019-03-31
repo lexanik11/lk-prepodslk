@@ -23,50 +23,20 @@
 
 			<div class="content">
 				<div class="block">
-					<div class="text-one"><img class="text-icon" src="img/icon.jpg" alt="icon"> Анализ и проектирование
-						информационных
-						систем</div>
-					<select name="select" class="feedback-select">
-						<option value="">Ближайшие занятия</option>
-						<option>18.03</option>
-						<option>19.03</option>
-						<option>20.03</option>
-						<option>21.03</option>
-						<option>22.03</option>
-					</select>
+					<div class="text-one"><img class="text-icon" src="img/icon.jpg" alt="icon"> Анализ и проектирование	информационных систем
+						</div>
+				
 					<div class="work">
-						<label for="numbet">Количество работ</label>
-						<input type="number" class="feedback-work" placeholder="Работы на проверку">
-					</div>
-					<select name="back" id="feedback-back">
-						<option value="">Работ сдано</option>
-						<option>1/15</option>
-						<option>2/15</option>
-						<option>3/15</option>
-						<option>4/15</option>
-						<option>5/15</option>
-					</select>
-					<select name="year" id="feedback-year">
-						<option value="">Год</option>
-						<option>2015</option>
-						<option>2016</option>
-						<option>2017</option>
-						<option>2018</option>
-						<option>2019</option>
-					</select>
-					<select name="group" id="feedback-group">
-						<option value="">Группа</option>
-						<option>КМБО-02-16</option>
-						<option>КМБО-02-17</option>
-						<option>КМБО-02-18</option>
-						<option>КМБО-02-18</option>
-						<option>КМБО-02-19</option>
-					</select>
-
+						<div >Ближайшее занятие <button class="btn-closest"></button></div>						
+						<a>Количество работ <button class="btn-kolvo"></button></a>	
+						<a>Работ сдано <button class="btn-cdano"></button></a>	 
+						<a>Год <button class="btn-year"></button></a>	 
+						<a>Группа <button class="btn-group"></button></a>						
+					</div>		
 					<button class="scroll"></button>
 				</div>
 				<div class="report">
-					<div class="report-title ">
+					<div class="report-title">
 						Отчетность в 2018/19 уч.г. <br>
 						К/р <br>
 						Экзамен <br>
@@ -86,60 +56,50 @@
 					<div class="text-subtitle">
 						<img class="text-icon" src="img/icon.jpg" alt="icon">
 						<div class="text-subtitle__buttom">Управление разработкой программного обеспечения</div>
-						<select name="select" class="feedback-select">
-							<option value="">Ближайшие занятия</option>
-							<option>18.03</option>
-							<option>19.03</option>
-							<option>20.03</option>
-							<option>21.03</option>
-							<option>22.03</option>
-						</select>
-						<div class="work">
-							<label for="numbet">Количество работ</label>
-							<input type="number" class="feedback-work" placeholder="Работы на проверку">
-						</div>
-						<select name="back" id="feedback-back">
-							<option value="">Работ сдано</option>
-							<option>1/15</option>
-							<option>2/15</option>
-							<option>3/15</option>
-							<option>4/15</option>
-							<option>5/15</option>
-						</select>
-						<select name="year" id="feedback-year">
-							<option value="">Год</option>
-							<option>2015</option>
-							<option>2016</option>
-							<option>2017</option>
-							<option>2018</option>
-							<option>2019</option>
-						</select>
-						<select name="group" id="feedback-group">
-							<option value="">Группа</option>
-							<option>КМБО-02-16</option>
-							<option>КМБО-02-17</option>
-							<option>КМБО-02-18</option>
-							<option>КМБО-02-18</option>
-							<option>КМБО-02-19</option>
-						</select>
+						<button class="scroll_1"></button>	
+						</div>							
+						
+						<div class="report1">
+							<div class="report-title1">
+							Отчетность в 2018/19 уч.г. <br>
+							К/р <br>
+							Экзамен <br>
+							</div>
+								</div>
+								<div class="buttons">
+					<div class="block-left">
+						<a href="#" class="btn-blue">Страница дисциплины</a>
 					</div>
-
+					<div class="block-right">
+						<button class="button btn-left">Данные по дисциплине</button>
+						<button class="button">Архивировать</button>
+					</div>
 				</div>
-			</div>
-		</div>
+									</div>
+										</div>
+											</div>
 
-		</select>
+		
 
 		<script src="js/jquery-3.3.1.min.js"></script>
 		<script src="js/js.js"></script>
 		<script>
-
 			$(document).ready(function () {
 				$('.scroll').on('click', function () {
 					$('.report-title').toggleClass('report-title-bottom');
 				});
 			});
-
+		</script>
+		
+		
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/js.js"></script>
+		<script>
+			$(document).ready(function () {
+				$('.scroll_1').on('click', function () {
+					$('.report-title1').toggleClass('report-title1-bottom');
+				});
+			});
 		</script>
 
 </body>
