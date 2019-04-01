@@ -173,7 +173,7 @@ display: flex;
 line-height: 35px;}
 	
 .report-title1{
-	text-align: center;
+	text-align: start;
 	font-size: 20px;
 	display: none;
 }
