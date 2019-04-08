@@ -153,7 +153,7 @@ display: flex;
 
 .report {
 	display: flex;
-	justify-content: flex-start;
+justify-content: flex-start;
 }
 .report1 {
 	display: flex;
@@ -307,24 +307,28 @@ left: -1px;}
 	content: '22';
 	position: absolute;
 	right: -150%;
+	
 } 
-
 .report-title__text-2 {
 	position: relative;
 }
- 
+
 .report-title__text-2::after {
-	content: '22';
+	content: '15/24';
 	position: absolute;
-	right: -150%;
-} 
+	right:-213%;
+	top:-40%;
+}
+
 
 .report-title__text-3 {
 	position: relative;
 }
 
 .report-title__text-3::after {
-	content: '22';
+	content: '12/25';
 	position: absolute;
-	right: -150%;
+	right: -213%;
+	top:-60%;
 } 
+
