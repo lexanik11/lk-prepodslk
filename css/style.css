@@ -306,7 +306,7 @@ left: -1px;}
 .report-title__text-1::after {
 	content: '22';
 	position: absolute;
-	right: -40%;
+	right: -150%;
 } 
 
 .report-title__text-2 {
@@ -316,7 +316,7 @@ left: -1px;}
 .report-title__text-2::after {
 	content: '22';
 	position: absolute;
-	right: -40%;
+	right: -150%;
 } 
 
 .report-title__text-3 {
@@ -326,5 +326,5 @@ left: -1px;}
 .report-title__text-3::after {
 	content: '22';
 	position: absolute;
-	right: -40%;
+	right: -150%;
 } 
