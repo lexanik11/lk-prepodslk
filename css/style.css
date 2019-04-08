@@ -162,7 +162,7 @@ display: flex;
 
 
 .report-title {
-	text-align: center;
+	text-align: start;
 	font-size: 20px;
 	display: none;
 }
@@ -173,7 +173,7 @@ display: flex;
 line-height: 35px;}
 	
 .report-title1{
-	text-align: start;
+	text-align: srart;
 	font-size: 20px;
 	display: none;
 }
@@ -275,27 +275,36 @@ left: -1px;}
 }
 
 .btn-kolvo{
-	height:20px;
-	margin-bottom:5px;
-	
+	height:15px;
+	content: url('../img/drop-down-icon-png-2.png');
 }
 .btn-year{
-	height:20px;
-	margin-bottom:5px;
-	
+	height:15px;
+	content: url('../img/drop-down-icon-png-2.png');
 }
 .btn-group{
-	height:20px;
-	margin-bottom:5px;
-	
+	height:15px;
+	content: url('../img/drop-down-icon-png-2.png');
 }
 .btn-cdano{
-	height:20px;
-	margin-bottom:5px;
-	
+	height:15px;
+	content: url('../img/drop-down-icon-png-2.png');
 }
 .btn-closest{
-	height:20px;
-	margin-bottom:5px;
-	
+	height:15px;
+	content: url('../img/drop-down-icon-png-2.png');
 }
+
+.dannie{
+	padding-top:40px;
+}
+
+.report-title__text-1 {
+	position: relative;
+}
+
+.report-title__text-1::after {
+	content: '22';
+	position: absolute;
+	right: -40%;
+} 
