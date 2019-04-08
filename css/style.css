@@ -308,16 +308,21 @@ left: -1px;}
 	position: absolute;
 	right: -40%;
 } 
-.report-title__text-1::after {
-	content: '22';
-	position: absolute;
-	right: -40%;
-} 
+
+.report-title__text-2 {
+	position: relative;
+}
+ 
 .report-title__text-2::after {
 	content: '22';
 	position: absolute;
 	right: -40%;
 } 
+
+.report-title__text-3 {
+	position: relative;
+}
+
 .report-title__text-3::after {
 	content: '22';
 	position: absolute;
