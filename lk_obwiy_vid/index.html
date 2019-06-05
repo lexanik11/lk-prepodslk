@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> 
+	<link rel="stylesheet" href="css/style.css"> 
+	<script src="js/modernizr.js"></script> 
+  	
+	<title>Личный кабинет</title>
+</head>
+<body>	
+	<header role="banner">
+	<section class="navi">
+		<div class="container">
+			<div class="grid-7 links">
+				<a class="active" href="index.html">Главная</a> 
+				<a href="http://vega.fcyb.mirea.ru/vega.php">О концерне</a> 
+				<a href="http://vega.fcyb.mirea.ru/about.php">О кафедре</a>
+				<a href="http://vega.fcyb.mirea.ru/disc.php">Дисциплины</a>
+			</div>
+            <div class="login grid-3">
+                <a href="login.html"><img alt="" src=""></a> 
+            </div>
+		</div>
+	</section>
+		<nav class="main-nav">
+			<ul>				
+				<li><a class="cd-signin" href="#0">Войти</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="cd-user-modal"> 
+		<div class="cd-user-modal-container"> 
+			<ul class="cd-switcher">
+				<li><a href="#0">Вход</a></li>				
+			</ul>
+			<div id="cd-login"> 
+				<form class="cd-form">
+					<p class="fieldset">
+						<label class="image-replace cd-email" for="signin-email">E-mail</label>
+						<input class="full-width has-padding has-border" id="signin-email" type="email" placeholder="E-mail">
+						<span class="cd-error-message">Error message here!</span>
+					</p>
+						<p class="fieldset">
+						<label class="image-replace cd-password" for="signin-password">Пароль</label>
+						<input class="full-width has-padding has-border" id="signin-password" type="text"  placeholder="Password">
+						<a href="#0" class="hide-password">Спрятать</a>
+						<span class="cd-error-message">Error message here!</span>
+					</p>
+						<p class="fieldset">
+						<input type="checkbox" id="remember-me" checked>
+						<label for="remember-me">Запомнить меня</label>
+					</p>
+
+					<p class="fieldset">
+						<input class="full-width" type="submit" value="Login">
+					</p>
+				</form>
+				
+				</div> 
+
+			<a href="#0" class="cd-close-form">Close</a>
+		</div> 
+	</div> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/main.js"></script> 
+</body>
+</html>
